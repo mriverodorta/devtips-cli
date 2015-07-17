@@ -99,7 +99,7 @@ GOTO:EOF
 
 REM Count how many times this script has been used
 :hit
-curl -i --silent -m 1 -X HEAD http://maikelrivero.com:2020
+curl -i --silent -m 1 -X GET http://maikelrivero.com:2020/hit
 GOTO:EOF
 
 :head

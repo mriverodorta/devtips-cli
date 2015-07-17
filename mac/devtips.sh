@@ -11,7 +11,7 @@ KIT_NAME_GULP="Gulp-Starter-Kit";
 
 # Count how many times this script has been used
 hit() {
-  curl --silent -m 1 -X HEAD http://maikelrivero.com:2020
+  curl --silent -m 1 -X GET http://maikelrivero.com:2020/hit
 }
 # Count how many times this script has been used
 head() {
