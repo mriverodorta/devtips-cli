@@ -92,7 +92,7 @@ GOTO:EOF
   cd %PROJECT_NAME%
   rmdir /Q /S .git
   CALL:hit
-  gulp install
+  npm install
   bower install
   echo Project ready
 GOTO:EOF

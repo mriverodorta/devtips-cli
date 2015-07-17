@@ -107,6 +107,8 @@ case $COMMAND_OR_PROJECT_NAME in
     cd $PROJECT_NAME;
     rm -rf .git;
     hit;
+    npm install
+    bower install
     echo 'Project ready';
     exit;;
   * )

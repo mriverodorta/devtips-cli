@@ -70,13 +70,13 @@ case $COMMAND_OR_PROJECT_NAME in
     echo " projects based on the DevTips-Starter-Kit";
     echo " -----------------------------------------------";
     echo " Usage:";
-    echo "  devtips [option|project-name] project-name";
+    echo "  devtips [option^|project-name] project-name";
     echo " Options";
     echo " -sass         Create a project with the default Devtips-Starter-Kit";
     echo " -jekyll       Create a project with the jekyll version of the Devtips-Starter-Kit";
     echo " -gulp         Create a Gulp based project with the Devtips-Starter-Kit";
-    echo " -h|-help      Show this help message";
-    echo " -v|-version   Show the version of the Devtips CLI";
+    echo " -h|-help     Show this help message";
+    echo " -v|-version  Show the version of the Devtips CLI";
     echo " Example";
     echo " devtips -gulp new-project";
     echo "     Will create a new folder named \"new-project\"";
@@ -107,6 +107,8 @@ case $COMMAND_OR_PROJECT_NAME in
     cd $PROJECT_NAME;
     rm -rf .git;
     hit;
+    npm install
+    bower install
     echo 'Project ready';
     exit;;
   * )
