@@ -5,10 +5,10 @@ The Devtips Command Line Interface is a simple bash tool for create new projects
 To install the Devtips CLI you need to download the one that fit you Operative System from the folder above. After you have the file on your pc, follow the instructions for your OS.
 
 #### Mac/Linux
-You should put the cli where you can execute ir as a command from everywhere in the terminal. The mostly used place is `/usr/local/bin` and then apply user permission to execute the script.
+You should put the cli where you can execute it as a command from everywhere in the terminal. The mostly used place is `/usr/local/bin` and then apply user permission to execute the script.
 ```
-cp devtips.sh /usr/loval/bin/devtips
-chmod 700 /usr/loval/bin/devtips
+cp devtips.sh /usr/local/bin/devtips
+chmod 700 /usr/local/bin/devtips
 ```
 Now you can use the devtips command in the terminal. If it doesn't work maybe you should close the terminal and open it again.
 
