@@ -7,8 +7,8 @@ To install the Devtips CLI you need to download the one that fits your Operating
 #### Mac/Linux
 You should put the cli where you can execute it as a command from everywhere in the terminal. The mostly used place is `/usr/local/bin` and then apply user permission to execute the script.
 ```
-cp devtips.sh /usr/local/bin/devtips
-chmod 700 /usr/local/bin/devtips
+sudo cp devtips.sh /usr/local/bin/devtips
+sudo chmod 700 /usr/local/bin/devtips
 ```
 Now you can use the devtips command in the terminal. If it doesn't work maybe you should close the terminal and open it again.
 
